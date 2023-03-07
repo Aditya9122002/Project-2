@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f9f5ed;
+}
+nav {
+  padding: 10px;
+  height: 15vh;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  /* this list style properties allow us to remove the dot from the list tag */
+  list-style: none;
+  margin: 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(43, 226, 141);
+}
+
+nav ul li img {
+  width: 100px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section {
+  width: 50%;
+}
+.left-section h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+.left-section h1::first-letter {
+  color: darkgreen;
+}
+
+.left-section p {
+  margin: 20px;
+  font-weight: 300;
+}
+#button {
+  background-color: greenyellow;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: brown;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+
+#button:hover {
+  background-color: red;
+  color: cornsilk;
+}
+.right-section {
+  width: 40%;
+  
+}
+/* .right-section div img {
+  width: 40%;
+} */
+/* .right-section div img:first-child {
+  margin-right: 30px;
+} */
+/* .right-section div {
+  margin-bottom: 20px;
+  justify-content: right;
+} */
+.right-section > img {
+  width: 60px;
+}
+
+    
+
